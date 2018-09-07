@@ -35,7 +35,7 @@ public class KaprekarUtils {
 		long first, second;
 		for(int i=1; i<=numDigits; i++) {
 			modulus *= 10;
-			first = square / modulus;		intentional error
+			first = square / modulus;
 			second = square % modulus;
 			if(first > 0 && second > 0 &&
 			   first + second == n) {
